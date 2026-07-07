@@ -1,9 +1,19 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import CustomersList from "./pages/CustomersList";
+import AdminLayout from "./layouts/AdminLayout";
+import AddCustomer from "./pages/AddCustomer";
+
+
 function App() {
   return (
-    <div>
-      <h1>My CRM</h1>
-      <p>Setup Folder Structure Completed</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AdminLayout />}>
+          <Route path="/" element={<CustomersList />} />
+          <Route path="customers/add" element={<AddCustomer/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

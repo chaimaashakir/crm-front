@@ -1,0 +1,101 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "fullName": "Omar Benali",
+      "companyName": "Atlas Digital",
+      "email": "omar@atlasdigital.com",
+      "phone": "+212600123456",
+      "website": "https://atlasdigital.com",
+      "industry": "Technology",
+      "address": "12 Rue Hassan II",
+      "city": "Casablanca",
+      "country": "Morocco",
+      "customerStatus": "Active",
+      "notes": "Key enterprise client, interested in long-term contract."
+    },
+    {
+      "id": 2,
+      "fullName": "Sara El Amrani",
+      "companyName": "GreenFoods Ltd",
+      "email": "sara@greenfoods.ma",
+      "phone": "+212612345678",
+      "website": "https://greenfoods.ma",
+      "industry": "Food & Beverage",
+      "address": "45 Avenue Mohammed V",
+      "city": "Rabat",
+      "country": "Morocco",
+      "customerStatus": "Prospect",
+      "notes": "Wants CRM integration with delivery system."
+    }
+  ],
+
+  "leads": [
+    {
+      "id": 1,
+      "fullName": "Youssef Kadiri",
+      "company": "TechNova",
+      "email": "youssef@technova.io",
+      "phone": "+212655112233",
+      "leadSource": "Website",
+      "leadStatus": "New",
+      "estimatedBudget": 5000,
+      "notes": "Requested demo for SaaS CRM."
+    },
+    {
+      "id": 2,
+      "fullName": "Nadia Bennis",
+      "company": "DesignHub",
+      "email": "nadia@designhub.com",
+      "phone": "+212644998877",
+      "leadSource": "LinkedIn",
+      "leadStatus": "Contacted",
+      "estimatedBudget": 12000,
+      "notes": "Interested in premium plan."
+    }
+  ],
+
+  "tasks": [
+    {
+      "id": 1,
+      "taskTitle": "Follow up with TechNova lead",
+      "customerId": 1,
+      "assignedUser": "Omar Benali",
+      "dueDate": "2026-06-10",
+      "priority": "High",
+      "description": "Schedule demo and send pricing details."
+    },
+    {
+      "id": 2,
+      "taskTitle": "Prepare onboarding for Atlas Digital",
+      "customerId": 1,
+      "assignedUser": "Sara El Amrani",
+      "dueDate": "2026-06-15",
+      "priority": "Medium",
+      "description": "Set up CRM access and initial training session."
+    }
+  ],
+
+  "deals": [
+    {
+      "id": 1,
+      "dealName": "Atlas Digital CRM Subscription",
+      "customerId": 1,
+      "dealValue": 15000,
+      "expectedCloseDate": "2026-07-01",
+      "pipelineStage": "Negotiation",
+      "probability": 70,
+      "description": "Annual subscription with enterprise features."
+    },
+    {
+      "id": 2,
+      "dealName": "GreenFoods CRM Setup",
+      "customerId": 2,
+      "dealValue": 8000,
+      "expectedCloseDate": "2026-06-25",
+      "pipelineStage": "Proposal",
+      "probability": 50,
+      "description": "Initial CRM setup and training package."
+    }
+  ]
+}
