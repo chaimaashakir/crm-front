@@ -1,7 +1,7 @@
 {
   "customers": [
     {
-      "id": 1,
+      "id": "1",
       "fullName": "Omar Benali",
       "companyName": "Atlas Digital",
       "email": "omar@atlasdigital.com",
@@ -15,7 +15,7 @@
       "notes": "Key enterprise client, interested in long-term contract."
     },
     {
-      "id": 2,
+      "id": "2",
       "fullName": "Sara El Amrani",
       "companyName": "GreenFoods Ltd",
       "email": "sara@greenfoods.ma",
@@ -27,12 +27,131 @@
       "country": "Morocco",
       "customerStatus": "Prospect",
       "notes": "Wants CRM integration with delivery system."
+    },
+    {
+      "fullName": "Mollit sed velit mol",
+      "companyName": "Aliquid consequuntur",
+      "email": "jilale@mailinator.com",
+      "phone": "66",
+      "website": "Facere ut consequatu",
+      "industry": "Select Industry",
+      "address": "Hic iure id saepe vo",
+      "city": "Nesciunt non minim ",
+      "country": "United States",
+      "customerstatus": "",
+      "notes": "Nemo temporibus nisi",
+      "customerStatus": "Prospect",
+      "id": "IyBAiV8bOwU"
+    },
+    {
+      "fullName": "Mollit sed velit mol",
+      "companyName": "Aliquid consequuntur",
+      "email": "jilale@mailinator.com",
+      "phone": "66",
+      "website": "Facere ut consequatu",
+      "industry": "Select Industry",
+      "address": "Hic iure id saepe vo",
+      "city": "Nesciunt non minim ",
+      "country": "United States",
+      "customerstatus": "",
+      "notes": "Nemo temporibus nisi",
+      "customerStatus": "Prospect",
+      "id": "S1rQ1SYHG8M"
+    },
+    {
+      "fullName": "Mollit sed velit mol",
+      "companyName": "Aliquid consequuntur",
+      "email": "jilale@mailinator.com",
+      "phone": "66",
+      "website": "Facere ut consequatu",
+      "industry": "Select Industry",
+      "address": "Hic iure id saepe vo",
+      "city": "Nesciunt non minim ",
+      "country": "United States",
+      "customerstatus": "",
+      "notes": "Nemo temporibus nisi",
+      "customerStatus": "Prospect",
+      "id": "Xv3VygMfCSA"
+    },
+    {
+      "fullName": "Sed quis labore quae",
+      "companyName": "Dolores quia unde ip",
+      "email": "rosag@mailinator.com",
+      "phone": "97",
+      "website": "Ut ea pariatur Aut ",
+      "industry": "Select Industry",
+      "address": "Incididunt enim quid",
+      "city": "Et dolores esse sunt",
+      "country": "United States",
+      "customerstatus": "",
+      "notes": "Aut error eiusmod vi",
+      "customerStatus": "Prospect",
+      "id": "ZzNAO2TFf3U"
+    },
+    {
+      "fullName": "Non magnam quam inci",
+      "companyName": "Aut duis et est aut ",
+      "email": "cetedovoqu@mailinator.com",
+      "phone": "70",
+      "website": "Duis expedita incidi",
+      "industry": "Select Industry",
+      "address": "Adipisicing quis sim",
+      "city": "Nihil velit sit poss",
+      "country": "United States",
+      "customerstatus": "",
+      "notes": "Ad sed corrupti off",
+      "customerStatus": "Prospect",
+      "id": "tmlQE1QUAu8"
+    },
+    {
+      "fullName": "Ullam tenetur est qu",
+      "companyName": "Delectus lorem impe",
+      "email": "pydaloge@mailinator.com",
+      "phone": "67",
+      "website": "Sit deserunt lorem s",
+      "industry": "Select Industry",
+      "address": "Dolores sunt veniam",
+      "city": "Enim eum dolorem nat",
+      "country": "United States",
+      "customerstatus": "",
+      "notes": "Elit eligendi conse",
+      "customerStatus": "Active Customer",
+      "id": "zAx8opVTda8"
+    },
+    {
+      "fullName": "Aliquid minus velit ",
+      "companyName": "Odit quo voluptatem",
+      "email": "jesutenopy@mailinator.com",
+      "phone": "39",
+      "website": "Qui id excepturi vel",
+      "industry": "Select Industry",
+      "address": "Enim velit est cupid",
+      "city": "Optio sit voluptat",
+      "country": "United States",
+      "customerstatus": "",
+      "notes": "Qui sed eius nisi om",
+      "customerStatus": "Inactive",
+      "id": "Szy1fIdf3NU"
+    },
+    {
+      "fullName": "xhol",
+      "companyName": "Consequat Sunt odit",
+      "email": "bufolop@mailinator.com",
+      "phone": "17",
+      "website": "Sed totam autem ut o",
+      "industry": "Select Industry",
+      "address": "Aperiam commodo id q",
+      "city": "Qui aute fuga Volup",
+      "country": "United States",
+      "customerstatus": "",
+      "notes": "Molestias vero recus",
+      "customerStatus": "Active Customer",
+      "id": "k4dkugd3EKw"
     }
   ],
-
   "leads": [
     {
-      "id": 1,
+      "id": "1",
       "fullName": "Youssef Kadiri",
       "company": "TechNova",
       "email": "youssef@technova.io",
@@ -43,7 +162,7 @@
       "notes": "Requested demo for SaaS CRM."
     },
     {
-      "id": 2,
+      "id": "2",
       "fullName": "Nadia Bennis",
       "company": "DesignHub",
       "email": "nadia@designhub.com",
@@ -54,10 +173,9 @@
       "notes": "Interested in premium plan."
     }
   ],
-
   "tasks": [
     {
-      "id": 1,
+      "id": "1",
       "taskTitle": "Follow up with TechNova lead",
       "customerId": 1,
       "assignedUser": "Omar Benali",
@@ -66,7 +184,7 @@
       "description": "Schedule demo and send pricing details."
     },
     {
-      "id": 2,
+      "id": "2",
       "taskTitle": "Prepare onboarding for Atlas Digital",
       "customerId": 1,
       "assignedUser": "Sara El Amrani",
@@ -75,10 +193,9 @@
       "description": "Set up CRM access and initial training session."
     }
   ],
-
   "deals": [
     {
-      "id": 1,
+      "id": "1",
       "dealName": "Atlas Digital CRM Subscription",
       "customerId": 1,
       "dealValue": 15000,
@@ -88,7 +205,7 @@
       "description": "Annual subscription with enterprise features."
     },
     {
-      "id": 2,
+      "id": "2",
       "dealName": "GreenFoods CRM Setup",
       "customerId": 2,
       "dealValue": 8000,
@@ -97,5 +214,6 @@
       "probability": 50,
       "description": "Initial CRM setup and training package."
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

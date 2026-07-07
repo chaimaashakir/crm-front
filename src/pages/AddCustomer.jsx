@@ -2,7 +2,7 @@ import { FaIdCardAlt } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import { FiAlignRight } from "react-icons/fi";
 import { useState } from "react";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 function AddCustomer() {
@@ -22,12 +22,65 @@ function AddCustomer() {
 
     })
 
-    function validateForm() {
-        if (formData.fullName === "") { 
+    const navigate = useNavigate();
 
+    function validateForm() {
+
+        if (formData.fullName.trim() === "") {
             alert("Full Name is required.");
             return false;
         }
+
+        if (formData.companyName.trim() === "") {
+            alert("Company Name is required.");
+            return false;
+        }
+
+        if (formData.email.trim() === "") {
+            alert("Email is required.");
+            return false;
+        }
+
+        if (formData.phone.trim() === "") {
+            alert("Phone is required.");
+            return false;
+        }
+
+        if (formData.website.trim() === "") {
+            alert("Website is required.");
+            return false;
+        }
+
+        if (formData.industry.trim() === "") {
+            alert("Industry is required.");
+            return false;
+        }
+
+        if (formData.address.trim() === "") {
+            alert("Address is required.");
+            return false;
+        }
+
+        if (formData.city.trim() === "") {
+            alert("City is required.");
+            return false;
+        }
+
+        if (formData.country === "") {
+            alert("Country is required.");
+            return false;
+        }
+
+        if (formData.customerStatus === "") {
+            alert("Customer Status is required.");
+            return false;
+        }
+
+        if (formData.notes.trim() === "") {
+            alert("Notes are required.");
+            return false;
+        }
+
         return true;
     }
 
@@ -36,23 +89,22 @@ function AddCustomer() {
 
         const isValid = validateForm();
 
-        if(!isValid) {
+        if (!isValid) {
             return;
         }
-        
 
         const response = await fetch(
             "http://localhost:5000/customers",
             {
-                method:"post",
+                method: "post",
                 headers: {
-                    "content-type":"application/json"
+                    "content-type": "application/json"
                 },
                 body: JSON.stringify(formData)
             }
         );
-        if (response.ok){
-            Navigate("/customers");
+        if (response.ok) {
+            navigate("/");
         }
     }
     return (
@@ -71,8 +123,8 @@ function AddCustomer() {
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end" style={{ padding: "7px" }}>
                     <button class="btn btn-light" style={{ background: "white" }}> Cancel </button>
                     <button
-                    onClick={saveCustomer}
-                    class="btn btn-primary"> Save Customers</button>
+                        onClick={saveCustomer}
+                        class="btn btn-primary"> Save Customers</button>
                 </div>
             </div>
             <div class="card mt-4" >
@@ -282,8 +334,8 @@ function AddCustomer() {
                 </button>
 
                 <button
-                 onClick={saveCustomer}
-                className="btn btn-primary">
+                    onClick={saveCustomer}
+                    className="btn btn-primary">
                     Save Customer
                 </button>
             </div>
